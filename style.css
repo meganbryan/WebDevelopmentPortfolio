@@ -1,0 +1,22 @@
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+    color: white;
+  }
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+  }
