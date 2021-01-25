@@ -6,6 +6,6 @@
 ### Link to my Deployed Application: [Web Development Portfolio](https://meganbryan.github.io/WebDevelopmentPortfolio/)
 
 ### ![Homepage Screenshot](./Assets/Homepage_SS.jpeg)
-### ![About Me Screenshot](./Assets/AboutMe_SS.jpeg)
-### ![Portfolio Screenshot](./Assets/Portfolio_SS.jpeg)
-### ![Contact Screenshot](./Assets/Contact_SS.jpeg)
+### ![About Me Screenshot](./Assets/About_SS.jpeg)
+### ![Portfolio Screenshot](./Assets/CurrentPortfolio_SS.jpeg)
+### ![Contact Screenshot](./Assets/ContactMe_SS.jpeg)
