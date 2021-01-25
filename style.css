@@ -73,3 +73,11 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+
+.transparent {
+  background-color: rgba(160, 157, 157, 0.9);
+}
+
+.opaque-navbar {
+  background-color: rgba(160, 157, 157, 0.1);
+}
