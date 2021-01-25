@@ -1,16 +1,48 @@
 body {
-    background-image: url(./Assets/Background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    min-height: 100%;
-    color: white;
-    font-size: 20px;
-  }
+  background-image: url(./Assets/Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+.home {
+  background-image: url(./Assets/homepage_background.jpg)
+}
+
+.aboutme {
+  background-image: url(./Assets/aboutme_background.jpg)
+}
+
+.portfolio {
+  background-image: url(./Assets/portfolio_bg.jpg);
+}
+
+.contact {
+  background-image: url(./Assets/contact_background.jpg)
+}
+
+.main-heading {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: right;
+  font-size: 5rem;
+}
+
+.blast-off {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: right;
+  font-size: 3rem;
+  text-decoration: none;
+  background-color: transparent;
+}
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .small-heading {
@@ -22,13 +54,13 @@ h1 {
 }
 
 li {
-    font-size: 28px;
-    font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .grayscale {
-    filter: grayscale(100%);
-  }
+  filter: grayscale(100%);
+}
 
 .link {
   color: rgb(167, 181, 245);
