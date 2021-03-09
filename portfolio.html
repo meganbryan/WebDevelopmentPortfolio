@@ -35,15 +35,57 @@
     </nav>
 
     <div>
-        <div class="container p-3 mb-5">
+        <div class="container mb-5">
                 <div class="row">
-                    <div class="col pl-4">
-                        <a href = "https://track-star-2021.herokuapp.com/"><img class="rounded img-fluid m-1 mt-2 lg-6 sm-12" src="./Assets/groupproject_ss.jpeg" width="350" height="350"></img></a>
-                        <a href = "https://meganbryan.github.io/WeatherDashboard/"><img class="rounded img-fluid m-1 mt-2 lg-6 sm-12 shadow-lg" src="./Assets/SS_1.jpeg" width="350" height="350"></img></a>
-                        <a href = "https://meganbryan.github.io/WeatherDashboard/"><img class="rounded img-fluid m-1 mt-2 lg-6 sm-12 shadow-lg" src="./Assets/SS_2.jpeg" width="350" height="350"></img></a>
-                        <a href = "https://meganbryan.github.io/WorkDayScheduler/"><img class="rounded img-fluid m-1 mt-2 lg-6 sm-12 shadow-lg" src="./Assets/SS_3.jpeg" width="350" height="350"></img></a>
-                        <a href = "https://github.com/meganbryan/EmployeeSummaryTemplate"><img class="rounded img-fluid m-1 mt-2 lg-6 sm-12" src="./Assets/SS_7.jpeg" width="350" height="350"></img></a>
-                        <a href = "https://meganbryan.github.io/CodeQuiz/"><img class="rounded img-fluid m-1 mt-2 lg-6 sm-12" src="./Assets/SS_8.jpeg" width="350" height="350"></img></a>
+                    <div id = "screenshots" class="row">
+                        <div target="_blank" class = "container2 col-lg-4 col-md-6 col-sm-12 rounded mt-4">
+                            <a data-image = "1" class = "screenshotLink" href = "https://track-star-2021.herokuapp.com/"><img class="shadow-lg img-fluid rounded" id = "photo-1" src="./Assets/groupproject_ss.jpeg" width="350" height="350"></img>
+                                <div id = "text-1" class="hide centered p-2 text-background link-alt">
+                                    <h2>Track Star</h2>
+                                    <h4>All your deliveries, organized in a flash</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div target="_blank" class = "container2 col-lg-4 col-md-6 col-sm-12 rounded mt-4">
+                            <a  data-image = "2" class = "screenshotLink" href = "https://meganbryan.github.io/WeatherDashboard/"><img class="rounded img-fluid shadow-lg" id = "photo-2" src="./Assets/SS_1.jpeg" width="350" height="350"></img>
+                                <div id = "text-2" class="hide centered p-2 text-background link-alt">
+                                    <h2>Weather Dashboard</h2>
+                                    <h4>Should you pack a jacket? Enter your city here.</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div target="_blank" class = "container2 col-lg-4 col-md-6 col-sm-12 rounded mt-4">
+                            <a  data-image = "3" class = "screenshotLink" href = "https://meganbryan.github.io/WeatherDashboard/"><img class="rounded img-fluid shadow-lg" id = "photo-3" src="./Assets/SS_2.jpeg" width="350" height="350"></img>
+                                <div id = "text-3" class="hide centered p-2 text-background link-alt">
+                                    <h2>Weather Dashboard</h2>
+                                    <h4>Should you pack a jacket? Enter your city here.</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div target="_blank" class = "container2 col-lg-4 col-md-6 col-sm-12 rounded mt-4">
+                            <a  data-image = "4" class = "screenshotLink" href = "https://meganbryan.github.io/WorkDayScheduler/"><img class="rounded img-fluid shadow-lg" id = "photo-4" src="./Assets/SS_3.jpeg" width="350" height="350"></img>
+                                <div id = "text-4" class="hide centered p-2 text-background link-alt">
+                                    <h2>Work Day Scheduler</h2>
+                                    <h4>Make your nine-to-five scheduling simpler.</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div target="_blank" class = "container2 col-lg-4 col-md-6 col-sm-12 rounded mt-4">
+                            <a  data-image = "5" class = "screenshotLink" href = "https://github.com/meganbryan/EmployeeSummaryTemplate"><img class="rounded img-fluid shadow-lg" id = "photo-5" src="./Assets/SS_7.jpeg" width="350" height="350"></img>
+                                <div id = "text-5" class="hide centered p-2 text-background link-alt">
+                                    <h2>Employee Summary Template</h2>
+                                    <h4>Keep track of employee info using this node application.</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div target="_blank" class = "container2 col-lg-4 col-md-6 col-sm-12 rounded mt-4">
+                            <a  data-image = "6" class = "screenshotLink" href = "https://meganbryan.github.io/CodeQuiz/"><img class="rounded img-fluid shadow-lg" id = "photo-6" src="./Assets/SS_8.jpeg" width="350" height="350"></img>
+                                <div id = "text-6" class="hide centered p-2 text-background link-alt">
+                                    <h2>Code Quiz</h2>
+                                    <h4>Check your knowledge of chemistry (and my knowledge of coding).</h4>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <p class = "ml-4 mt-2 text-center">Click on any image above to navigate to the deployed application.</p>
@@ -59,5 +101,19 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".screenshotLink").mouseenter(function(){
+                const imageNumber = $(this).attr("data-image")
+                $(`#photo-${imageNumber}`).addClass("img-with-text")
+                $(`#text-${imageNumber}`).removeClass("hide")
+            });
+            $(".screenshotLink").mouseleave(function(){
+                const imageNumber = $(this).attr("data-image")
+                $(`#photo-${imageNumber}`).removeClass("img-with-text")
+                $(`#text-${imageNumber}`).addClass("hide")
+            });
+        });
+    </script>
 </body>
 </html>

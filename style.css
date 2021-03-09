@@ -68,6 +68,12 @@ li {
   text-decoration: none;
 }
 
+.link-alt {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 a:hover {
   color: rgb(167, 181, 245);
   background-color: transparent;
@@ -80,4 +86,29 @@ a:hover {
 
 .opaque-navbar {
   background-color: rgba(160, 157, 157, 0.1);
+}
+
+.img-with-text {
+  filter: blur(3px) opacity(70%) grayscale(50%);
+}
+
+.text-background {
+  background-color: rgba(88, 86, 86, 0.9);
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
 }
