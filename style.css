@@ -89,11 +89,11 @@ a:hover {
 }
 
 .img-with-text {
-  filter: blur(3px) opacity(70%) grayscale(50%);
+  filter: blur(2px) opacity(95%);
 }
 
 .text-background {
-  background-color: rgba(88, 86, 86, 0.9);
+  background-color: rgba(36, 35, 35, 0.97);
 }
 
 .hide {
